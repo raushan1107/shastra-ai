@@ -1,1 +1,8 @@
-node_modules .next .env.local deploy*.zip *.zip
+node_modules/
+.next/
+.env.local
+*.zip
+deploy*.zip
+deploy-full.zip
+deploy-v2.zip
+deploy.zip
