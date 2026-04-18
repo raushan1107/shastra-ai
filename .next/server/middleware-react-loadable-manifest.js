@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST='{"app\\\\page.tsx -> @/components/HeroBg":{"id":4999,"files":["static/chunks/999.76aa9d8bdd0d5186.js"]}}';
