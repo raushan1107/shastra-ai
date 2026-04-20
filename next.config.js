@@ -1,2 +1,1 @@
-/** @type {import('next').NextConfig} */
-module.exports = { experimental: { serverActions: true } }
+/** @type {import('next').NextConfig} */module.exports = {   experimental: { serverActions: true },  output: 'standalone'}
