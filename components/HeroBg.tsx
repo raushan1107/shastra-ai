@@ -7,11 +7,11 @@ export default function HeroBg() {
   useEffect(() => {
     const canvas = ref.current
     if (!canvas) return
-    const ctx = canvas.getContext('2d')!
+    const ctx = canvas!.getContext('2d')!
     let W = 0, H = 0, t = 0, raf = 0
     const N = 90
 
-    const resize = () => { W = canvas.width = innerWidth; H = canvas.height = innerHeight }
+    const resize = () => { W = canvas!.width = innerWidth; H = canvas!.height = innerHeight }
     resize()
     window.addEventListener('resize', resize, { passive: true })
 
@@ -165,7 +165,7 @@ export default function HeroBg() {
 
       // Subtle parallax scroll
       const scrollY = window.scrollY || 0
-      canvas.style.transform = `translateY(${scrollY * 0.18}px)`
+      canvas!.style.transform = `translateY(${scrollY * 0.18}px)`
 
       raf = requestAnimationFrame(loop)
     }
