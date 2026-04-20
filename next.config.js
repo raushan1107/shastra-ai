@@ -1,1 +1,1 @@
-/** @type {import('next').NextConfig} */module.exports = {   experimental: { serverActions: true },  output: 'standalone'}
+/** @type {import('next').NextConfig} */const nextConfig = {}module.exports = nextConfig
