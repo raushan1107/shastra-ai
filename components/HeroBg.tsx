@@ -81,8 +81,7 @@ export default function HeroBg() {
     // ── ANIMATION STARTS IMMEDIATELY on mount ──
     function loop() {
       // Use actual W,H every frame in case resize happened
-      const cW = canvas.width, cH = canvas.height
-      t += 0.011
+const cW = canvas!.width, cH = canvas!.height      t += 0.011
       ctx.clearRect(0, 0, cW, cH)
 
       const scroll = getScroll()
